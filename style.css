@@ -1,0 +1,32 @@
+body {
+  font-family: "Viaoda Libre", cursive;
+  font-size: 24px;
+  color: #00462c;
+  background-color: hsl(0, 0%, 100%);
+  margin: 0;
+}
+#header-img {
+  width: 100vw;
+  border: 1px solid;
+}
+#header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+a:link {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: #00462c;
+}
+#nav-bar {
+  display: flex;
+  max-width: 100vw;
+  justify-content: space-around;
+  align-items: center;
+  border: 5px outset;
+  /* margin: 0%; */
+  /* box-sizing: border-box; */
+}
