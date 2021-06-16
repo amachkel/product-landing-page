@@ -23,11 +23,13 @@ a:hover {
 }
 #nav-bar {
   display: flex;
-  max-width: 100vw;
+  position: fixed;
+  min-width: 100vw;
   justify-content: space-around;
   align-items: center;
   border: 5px outset;
-  /* margin: 0%; */
+  margin: 0%;
+  padding: auto;
   /* box-sizing: border-box; */
 }
 #catalog {
