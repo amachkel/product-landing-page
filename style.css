@@ -30,3 +30,12 @@ a:hover {
   /* margin: 0%; */
   /* box-sizing: border-box; */
 }
+#catalog {
+  padding: 2rem;
+}
+#video {
+  display: flex;
+  align-items: center;
+  border: none;
+  margin: auto;
+}
