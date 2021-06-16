@@ -3,7 +3,7 @@ body {
   font-size: 24px;
   color: #00462c;
   background-color: hsl(0, 0%, 100%);
-  margin: 0;
+  margin-top: 00px;
 }
 #header-img {
   width: 100vw;
@@ -13,6 +13,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+
+  position: fixed;
 }
 a:link {
   text-decoration: none;
@@ -23,17 +25,12 @@ a:hover {
 }
 #nav-bar {
   display: flex;
-  position: fixed;
-  min-width: 100vw;
   justify-content: space-around;
-  align-items: center;
+  max-width: 100vw;
   border: 5px outset;
-  margin: 0%;
-  padding: auto;
-  /* box-sizing: border-box; */
 }
 #catalog {
-  padding: 2rem;
+  padding-top: 200px;
 }
 #video {
   display: flex;
