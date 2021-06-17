@@ -45,12 +45,6 @@ a:hover {
 #catalog {
   padding-top: 30vh;
 }
-/* #video {
-  display: flex;
-  align-items: center;
-  border: none;
-  margin: auto;
-} */
 
 .iframe-container {
   position: relative;
@@ -66,4 +60,13 @@ a:hover {
   width: 80%;
   display: block;
   margin: auto;
+}
+#form {
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+  margin: auto 25%;
+  justify-content: center;
+  /* align-items: center; */
+  border: 1px solid #000;
 }
