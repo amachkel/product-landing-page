@@ -2,7 +2,7 @@ body {
   font-family: "Viaoda Libre", cursive;
   font-size: 24px;
   color: #00462c;
-  background-color: hsl(0, 0%, 100%);
+  background-color: #ffffff;
   margin: 00px;
 }
 @media only screen and (max-width: 700px) {
@@ -71,7 +71,7 @@ a:hover {
   display: block;
   margin: auto;
 }
-#form {
+#contact {
   display: flex;
   flex-direction: column;
   max-width: 70%;
@@ -79,6 +79,9 @@ a:hover {
   align-items: center;
   /* align-items: center; */
   /* border: 1px solid #000; */
+}
+#form {
+  font-size: 18px;
 }
 #email {
   font-size: 18px;
@@ -98,4 +101,17 @@ a:hover {
   margin: 15px 130px;
   padding: 5px;
   background-color: #fff;
+}
+#faire-links {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.faire {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+p {
+  /* display: inline; */
 }
