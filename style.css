@@ -51,6 +51,19 @@ a:hover {
   max-width: fit-content;
   margin: auto;
 }
+.hats {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: calc(100% / 3);
+  margin: 10px;
+  border: 1px solid #000;
+}
+#hats-list {
+  display: flex;
+  justify-content: center;
+}
 
 .iframe-container {
   display: flex;
@@ -71,9 +84,16 @@ a:hover {
   display: block;
   margin: auto;
 }
-#robinhood {
-  max-width: 30vw;
+#robin-img {
+  max-width: 20vw;
 }
+#tricorn-img {
+  max-width: 20vw;
+}
+#jester-img {
+  max-width: 20vw;
+}
+
 #contact {
   padding-top: 20vh;
   display: flex;
